@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% from "macros/blog.html" import render_blog_post %}
+{% from "macros/pagination.html" import render_pagination %}
+
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+    <h2>{{ this.title }}</h2>
+    <p>{{ this.body }}</p>
+    <br>
+    <br>
+    {% for child in this.pagination.items %}
+        <div class="blog-snippet">
+        <h2><a href="{{ child|url }}">{{ child.title }}</a></h2>
+
+        <p class="summary">
+              {{ child.summary }}
+        <a class="more" href="{{ child|url }}">Read more …</a>
+
+    {% endfor %}
+
+    {{ render_pagination(this.pagination) }}
+{% endblock %}

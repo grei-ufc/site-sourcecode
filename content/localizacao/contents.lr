@@ -1,0 +1,22 @@
+_model: localizacao
+---
+title: Localização
+---
+body:
+
+O Grupo de Redes Elétricas Inteligentes está localizado no Departamento de Engenharia Elétrica (<a href="http://www.dee.ufc.br/">DEE</a>) da Universidade Federal do Ceará (<a href="http://ufc.br">UFC</a>):
+
+<br>
+
+
+<img src="/static/dee_bloco.jpg" alt="" width="400">
+
+<address>
+    <strong>Departamento de Engenharia Elétrica UFC</strong> <br>
+    Campus do Pici - Bloco 705 Fortaleza - Ceará - Brasil <br>
+    Caixa Postal 6001 <br>
+    (+55 85) 3366-9581 <br>
+    <a href="mailto:eletrica@dee.ufc.br">eletrica@dee.ufc.br</a> <br>
+</address>
+
+<iframe width="525" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-38.57875406742097%2C-3.7457000484536165%2C-38.57464492321015%2C-3.7423597958432633&amp;layer=mapnik&amp;marker=-3.744029923741319%2C-38.57669949531555" style="border: 0.0px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=-3.74403&amp;mlon=-38.57670#map=18/-3.74403/-38.57670">Größere Karte anzeigen</a></small>

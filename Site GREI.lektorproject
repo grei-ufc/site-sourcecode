@@ -1,0 +1,8 @@
+[project]
+name = Site GREI
+
+[packages]
+lektor-markdown-highlighter = 0.1
+
+[servers.production]
+target = ghpages+https://grei-ufc/grei-ufc.github.io

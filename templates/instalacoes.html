@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<h2>{{ this.title }}</h2>
+<p>{{ this.body }}</p>
+
+<div class="row equipamento">
+    <div class="col-md-12">
+        <img src="{{'/static/image2.png'|url }}" width="600" alt="">
+    </div>
+</div>
+
+<p>Paineis Fotovoltaicos que alimentam os inversores da microrrede.</p>
+
+<div class="row equipamento">
+    <div class="col-md-12">
+        <img src="{{'/static/image3.png'|url }}" width="600" alt="">
+    </div>
+</div>
+
+<p>Banco de Baterias integrantes da estrutura da microrrede.</p>
+
+<div class="row equipamento">
+    <div class="col-md-12">
+        <img src="{{'/static/image4.png'|url }}" width="600" alt="">
+    </div>
+</div>
+
+<p>
+    Equipamentos de controle da microrrede como: quadro de comando, inversores e cargas trifásicas. 
+</p>
+
+<div class="row equipamento">
+    <div class="col-md-12">
+        <img src="{{'/static/image5.png'|url }}" width="600" alt="">
+    </div>
+</div>
+
+<p>
+    Sistema eólio-elétrico, parte interante da miccrorrede.
+</p>
+
+<div class="row equipamento">
+    <div class="col-md-12">
+        <img src="{{'/static/image7.jpeg'|url }}" width="600" alt="">
+    </div>
+</div>
+
+<p>
+    Bancada de testes para sistemas de automação da distribuição.
+</p>
+
+<div class="row equipamento">
+    <div class="col-md-12">
+        <img src="{{'/static/image9.png'|url }}" width="600" alt="">
+    </div>
+</div>
+
+<p>
+    Diagrama esquemático da bancada de testes para sistemas de automação da distribuição.
+</p>
+
+<div class="row equipamento">
+    <div class="col-md-12">
+        <img src="{{'/static/image8.jpeg'|url }}" width="600" alt="">
+    </div>
+</div>
+
+<p>
+    Fonte programável MX30-3Pi para estudos de distúrbios elétricos relacionados à qualidade de energia.
+</p>
+
+{% endblock %}
